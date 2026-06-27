@@ -45,6 +45,9 @@ streamlit run app.py
 
 > GPU strongly recommended — 1000 steps takes ~2 min on RTX 4060, ~30 min on CPU.
 
+For more control over hyperparameters (α, β, steps, resolution), run the Jupyter notebook directly — `NST implementation.ipynb` walks through the full implementation with all tunable parameters exposed.
+
+
 ---
 
 ## Results
@@ -52,7 +55,7 @@ streamlit run app.py
 | Content | Style | Steps |
 |--------|-------|-------|
 | Tokyo skyline | Starry Night | 10,000 |
-| Tokyo skyline | The Scream | 3,000 |
+| African field | The Scream | 3,000 |
 
 Best hyperparameters: `α=0.01`, `β=1e7`, Adam `lr=0.01`
 
