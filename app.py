@@ -70,5 +70,5 @@ else:
 
 if st.button("Generate Image"):
     with st.spinner("Generating... this may take a few minutes"):
-        img = run_nst(content, style, alpha, beta, steps=300)
+        img = run_nst(content, style, alpha, beta, steps=100)
     st.image(img)
